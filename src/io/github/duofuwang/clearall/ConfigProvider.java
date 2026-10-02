@@ -1,4 +1,4 @@
-package com.duofu.clearall;
+package io.github.duofuwang.clearall;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -11,7 +11,7 @@ import android.net.Uri;
 /** 样式配置的只读通道；键名与默认值集中在这里。 */
 public class ConfigProvider extends ContentProvider {
 
-    public static final String AUTHORITY = "com.duofu.clearall.config";
+    public static final String AUTHORITY = "io.github.duofuwang.clearall.config";
     public static final String CONFIG_URI = "content://" + AUTHORITY + "/config";
 
     public static final String KEY_RADIUS = "radius";

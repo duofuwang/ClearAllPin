@@ -1,4 +1,4 @@
-package com.duofu.clearall;
+package io.github.duofuwang.clearall;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

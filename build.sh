@@ -38,7 +38,7 @@ find "$ROOT/src" -name '*.java' | sed 's|^/e/|E:/|' > "$OUT/src.list"
     -cp "$(win "$AJ");$(win "$OUT/stubs")" -d "$(win "$OUT/classes")" @"$OUT/src.list"
 
 echo "[3/6] dex"
-(cd "$OUT/classes" && "$JAVAC8/jar.exe" cf "$(win "$OUT/classes.jar")" com)
+(cd "$OUT/classes" && "$JAVAC8/jar.exe" cf "$(win "$OUT/classes.jar")" io)
 "$JAVA/java" -cp "$(win "$BT/lib/d8.jar")" com.android.tools.r8.D8 \
     --min-api 29 --lib "$(win "$AJ")" --output "$(win "$OUT/dex")" "$(win "$OUT/classes.jar")"
 

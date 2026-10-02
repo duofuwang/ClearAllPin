@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.duofu.clearall"
+    package="io.github.duofuwang.clearall"
     android:versionCode="2"
     android:versionName="2.0">
     <application
@@ -28,7 +28,7 @@
 
         <provider
             android:name=".ConfigProvider"
-            android:authorities="com.duofu.clearall.config"
+            android:authorities="io.github.duofuwang.clearall.config"
             android:exported="true" />
     </application>
 </manifest>

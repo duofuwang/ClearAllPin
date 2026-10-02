@@ -1,4 +1,4 @@
-package com.duofu.clearall;
+package io.github.duofuwang.clearall;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
