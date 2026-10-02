@@ -1,0 +1,14 @@
+# 本地构建工具链，体积大，不入库
+toolchain/
+
+# 构建中间产物与输出
+out/
+*.apk
+*.idsig
+
+# 签名文件
+keystore/
+
+# 系统杂项
+Thumbs.db
+.DS_Store
